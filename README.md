@@ -1,11 +1,11 @@
 # RESTful API | User Management
 
 ## Dev Environment
-Node v14.4.0
-npm v6.14.5
-Express v4.17.1
-MongoDB v4.4.1
-Typescript v4.0.3
+- Node v14.4.0
+- npm v6.14.5
+- Express v4.17.1
+- MongoDB v4.4.1
+- Typescript v4.0.3
 
 ## Installation
 npm install
@@ -17,11 +17,11 @@ npm install
 
 ## Test
 Use any REST client (ie. Postman) to test the following endpoints:
-    - '/api/createUser' - Adds a user into db 
-    - '/api/listUser' - lists all non 'archived' users.
-    - '/api/getUser/:id' - fetch only one user by id.
-    - '/api/updateUser/:id' - update user's data, user selected is based on id.
-    - '/api/deleteUser/:id' - remove a user from db
+- '/api/createUser' => Adds a user into db 
+- '/api/listUser' => lists all non 'archived' users.
+- '/api/getUser/:id' => fetch only one user by id.
+- '/api/updateUser/:id' => update user's data, user selected is based on id.
+- '/api/deleteUser/:id' => remove a user from db
     
 ````````
 Sample data
