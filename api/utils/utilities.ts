@@ -2,7 +2,7 @@ import * as moment from 'moment';
 
 export default class Utilities {
     public convertDate(date) {
-        const d = moment(date, 'MM/DD/YYYY');
+        const d = moment(date,"MM/DD/YYYY").format( "MM/DD/YYYY");
         return d;
     }
 }

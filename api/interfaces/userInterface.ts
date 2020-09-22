@@ -4,7 +4,7 @@ export interface IUser {
     _id?: String;
     name: String;
     email: String;
-    birthdate: Moment;
+    birthdate: String;
     age: Number;
     archived?: Boolean;
 }
